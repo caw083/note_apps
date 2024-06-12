@@ -1,0 +1,31 @@
+@media screen and (min-width: 767px) {
+    .form-search {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: row;
+    }
+    .search {
+      width: 350px;
+    }
+    .container-note {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+@media screen and (min-width: 992px) {
+    .title {
+      position: absolute;
+      left: 100px;
+    }
+    h2 {
+      margin-left: 100px;
+    }
+    .container-note {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    form {
+      margin: auto;
+      width: 70%;
+    }
+}
+  
