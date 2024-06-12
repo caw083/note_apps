@@ -1,0 +1,27 @@
+
+######## POST A notes
+POST  https://notes-api.dicoding.dev/v2/notes 
+Content-Type: application/json
+
+{
+  "title": "Hello, Notes!",
+  "body": "My new notes."
+}
+
+######## Archieved Notes
+POST https://notes-api.dicoding.dev/v2/notes/notes-SVrRIGtFFm5rVSxK/archive
+
+########## GET unarchieved notes
+GET  https://notes-api.dicoding.dev/v2/notes
+
+########## GET archieved notes
+GET  https://notes-api.dicoding.dev/v2/notes/archieved
+
+############# unarchieved NotesPOST https://notes-api.dicoding.dev/v2/notes/notes-12345/archive
+POST https://notes-api.dicoding.dev/v2/notes/notes-SVrRIGtFFm5rVSxK/unarchive
+
+
+############ TRASH NOTE
+DELETE https://notes-api.dicoding.dev/v2/notes/{note_id}
+
+
